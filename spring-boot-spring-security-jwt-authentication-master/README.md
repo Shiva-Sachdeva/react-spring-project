@@ -14,7 +14,7 @@ Open `src/main/resources/application.properties`
 
 - For MySQL
 ```
-spring.datasource.url=jdbc:mysql://localhost:3306/testdb_spring?useSSL=false
+spring.datasource.url=jdbc:mysql://localhost:3306/userinformation
 spring.datasource.username=root
 spring.datasource.password=123456
 
@@ -22,8 +22,8 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 spring.jpa.hibernate.ddl-auto=update
 
 # App Properties
-bezkoder.app.jwtSecret= ======================BezKoder=Spring===========================
-bezkoder.app.jwtExpirationMs=86400000
+sangeet.app.jwtSecret= ======================Sangeet=Spring===========================
+sangeet.app.jwtExpirationMs=86400000
 ```
 ## Run Spring Boot application
 ```
